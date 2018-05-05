@@ -1,22 +1,31 @@
 <!DOCTYPE html>
 <html lang="pl">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Pirate Game</title>
     <script src="js/script.js"></script>
-    <style src="css/style.css"></style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
+
+
 <body>
-    <form id="myForm" action="/action_page.php">
-        Podaj ip: <input id="XD" type="text" name="ip_in" value="192.168.0.104"><br>
-      </form> 
-      
-      <p>Kilkinj przycisk generuj aby stworzyć link do strony.</p>
-      
-      <button onclick="myFunction()">Generuj!</button>
-      
-      <p id="gen"></p>
+    <div class="main">
+        <form id="myForm" action="/action_page.php">
+            Podaj ip:
+            <input id="XD" type="text" name="ip_in" value="192.168.0.104">
+            <br>
+        </form>
+
+        <p>Kilkinj przycisk generuj aby stworzyć link do strony.</p>
+
+        <button onclick="myFunction()">Generuj!</button>
+
+        <p id="gen"></p>
+    </div>
 </body>
+
+
 </html>
