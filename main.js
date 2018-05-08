@@ -3,10 +3,10 @@ const {app, BrowserWindow} = require('electron')
   const url = require('url')
   
   function createWindow () {
-    // Create the browser window.
+    //Stworzenie okna o wymiarach 800x600
     win = new BrowserWindow({width: 800, height: 600})
   
-    // and load the index.html of the app.
+    // Ładowanie z pliku index.html
     win.loadURL(url.format({
       pathname: path.join(__dirname, 'index.html'),
       protocol: 'file:',
